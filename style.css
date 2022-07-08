@@ -18,7 +18,7 @@ h1{
 .half-width img{
     width: 80%;
 }
-.first-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -33,4 +33,26 @@ h1{
 .first-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.exprience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exprience-item{
+   width: 40%;
+   margin-left: 5%;
+   margin-right: 5%;
+   padding-left: 10px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 40px goldenrod;   
+}
+#stack-developer{
+    border-left: 7px solid orange;
+}
+#baby-developer{
+    border-left: 7px solid red;
+}
+footer p{
+    text-align: center;
 }
