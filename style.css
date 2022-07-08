@@ -20,9 +20,7 @@ h1{
 }
 .first-section{
     display: flex;
-}
-.half-width img{
-    width: 80%;
+    margin-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
